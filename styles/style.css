@@ -95,7 +95,7 @@ h1::after {
     display: none;
 } 
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 680px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
     float: right;
@@ -103,7 +103,7 @@ h1::after {
     }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 680px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
     position: absolute;
