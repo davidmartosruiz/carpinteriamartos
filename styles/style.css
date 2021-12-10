@@ -479,7 +479,7 @@ margin-top: 100px;}
             }
 #contact #phone {display: none;}
 
-#contact p, #contact h2, #contact h3, #contact h1 {padding-left: 55%;}
+#contact p, #contact h2, #contact h3, #contact h1 {padding-left: 20%;}
 
 #contact hr {margin-top: 30px;
             margin: 5% 30% 0 30%;
@@ -514,6 +514,33 @@ color: white;
 #social {text-align: center;
 margin: auto;
 }
+
+
+
+
+/******************* GOOGLE MAPS *******************/
+
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 70%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding: 4%; /* para que no se pegue al borde de su contenido*/}
+
+
+
+    #mobile{display:none;}
 
 
 /******************* FOOTER *******************/
@@ -578,6 +605,8 @@ margin: auto;
         }
     #contact img {width: 40%;}
     footer {padding: 1% 20%;}
+    .container {padding-top: 90%;}
+    #contact p, #contact h2, #contact h3, #contact h1 {padding-left: 10%;}
 }
 
 @media only screen and (max-width:660px) {
@@ -587,9 +616,11 @@ margin: auto;
     #hero #bajate #cuadro {bottom: 5%;}
     .tercio{width: 100%;}
     #aboutus-photo {width: 80%;}
-    #contact p, #contact h2, #contact h3, #contact h1 {padding-left: 10%;}
-    #contact #PC {display:none;}
-    #contact #phone {display:block;}
+    #contact p, #contact h2, #contact h3, #contact h1 {padding-left: 25%;}
     #contact img {width: 60%;}
     footer {padding: 1% 10%;}
+    .mitad {width: 100%;}
+    .container {width: 95%; padding-top: 50%;}
+    #PC{display:none;}
+    #mobile{display:block;}
 }
