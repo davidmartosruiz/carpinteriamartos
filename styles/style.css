@@ -623,4 +623,5 @@ margin: auto;
     .container {width: 95%; padding-top: 50%;}
     #PC{display:none;}
     #mobile{display:block;}
+    #subirdiv div{margin-top: -30px;}
 }
