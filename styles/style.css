@@ -618,10 +618,11 @@ margin: auto;
     #aboutus-photo {width: 80%;}
     #contact p, #contact h2, #contact h3, #contact h1 {padding-left: 25%;}
     #contact img {width: 60%;}
-    footer {padding: 1% 10%;}
+    footer {padding: 1% 7%;}
     .mitad {width: 100%;}
     .container {width: 95%; padding-top: 50%;}
     #PC{display:none;}
     #mobile{display:block;}
     #subirdiv div{margin-top: -30px;}
+    #datoscontacto{margin: 0 0 0 -10px}
 }
