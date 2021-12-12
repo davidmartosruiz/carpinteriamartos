@@ -23,6 +23,7 @@
 <body>
     <nav id="navfixedposition">
             <div class="topnav" id="myTopnav">
+                <!-- barra de navegación -->
                 <a href="#">Home</a>
                 <a href="#aboutus">About us</a>
                 <a href="#services">Services</a>
@@ -37,7 +38,7 @@
 
 
         <section id="hero">
-            <div class="parallax">
+            <div class="parallax"> <!-- hero section con efecto parallax -->
             <div id="bajate">
                 <h2>Carpintería Martos</h2>
                     <p id="cuadro">Carpentry aimed at the manufacture and custom assembly of our products, guaranteeing customer satisfaction with the best quality at the lowest possible price.</p>
@@ -49,9 +50,9 @@
 
     <div id="container">
 
-        <section id="aboutus">
+        <section id="aboutus"> <!-- about us con lista (ul) para explicar por qué elegirnos-->
             <div class="mitad-aboutus" id="izquierda">
-                <img id="aboutus-photo" src="./images/aboutus.jpg" alt="Carpenter">
+                <img id="aboutus-photo" src="./images/aboutus.jpg" alt="Carpenter"> <!-- imagen carpintero -->
                 <a id="photo-atribution" href='https://www.freepik.com/photos/people'><p> Photo created by aleksandarlittlewolf</p></a>
             </div>
             <div class="mitad-aboutus" id="derecha">
@@ -78,7 +79,7 @@
                 </div>
             </div>
             <div class="mitad-aboutus" id="img-formato-tablet">
-                <img id="aboutus-photo" src="./images/aboutus.jpg" alt="Carpenter">
+                <img id="aboutus-photo" src="./images/aboutus.jpg" alt="Carpenter"> <!-- imagen carpintero para móviles y tablets -->
                 <div class="fin-float"></div>
                 <a id="photo-atribution" href='https://www.freepik.com/photos/people'><p> Photo created by aleksandarlittlewolf</p></a>
             </div>
@@ -88,7 +89,7 @@
 
         <section id="services">
             <h1>Our Services</h1>
-
+            <!-- sección de servicios, con card que al poner el cursor por encima te detalla el servicio -->
             <div class="cuartos">
                 <div class="flip-card">
                     <div class="flip-card-inner">
@@ -153,7 +154,7 @@
     <div class="fin-float"></div>
         <section id="projects">
             <h2>Project Gallery</h2>
-
+                <!-- galería de proyectos, la parte más complicada fue el javascript para hacer que se aumentaran de tamaño al pulsar -->
             <div class="row">
                 <div class="column">
                     
@@ -183,7 +184,7 @@
                     </div>
                     
 
-                    <div id="modal01" class="modal" onclick="this.style.display='none'">
+                    <div id="modal01" class="modal" onclick="this.style.display='none'"> <!-- cruzeta para cerrar imagen en grande -->
                         <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                         <div class="modal-content">
                         <img id="img01" style="max-width:100%">
@@ -267,7 +268,7 @@
         </section>
         
         <section id="testimonials">
-            <h1>Customer Testimonials</h1>
+            <h1>Customer Testimonials</h1> <!-- testimonios de clientes -->
             <div class="tercio">
                 <div class="testimonial-content">
                     <p>"We have been very satisfied with the work done, they are great professionals. Great value for the price. Thank you  so much for everything."</p>
@@ -291,13 +292,13 @@
 
         <section id="contact">
             <div class="mitad">
-            <div class="container" id="PC">
+            <div class="container" id="PC"> <!-- google maps -->
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d409310.3481781004!2d-4.808858043552042!3d36.72887484648588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72eafb5b5f8391%3A0xb6cc29acdf549afa!2sCarpinter%C3%ADa%20Martos!5e0!3m2!1sen!2ses!4v1639047408630!5m2!1sen!2ses" id="PC" class="responsive-iframe" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
             <div class="mitad" id="datoscontacto">
-                <h2 id="git">Get in Touch</h2>
-                <!--<h2>Contact Info</h2>-->
+                <h2 id="git">Get in Touch</h2> <!-- contactos -->
+                <!--Contact Info-->
                 <h3>Address</h3>
                 <p>Calle Manuel Jalón, nave 2<br>
                     Polígono Industrial "La Molina"<br>
@@ -308,13 +309,13 @@
                 <p>carpinteriamartos@hotmail.com</p>
             </div>
             <div class="fin-float"></div>
-            <div class="container" id="mobile">
+            <div class="container" id="mobile"> <!-- google maps versión móviles -->
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d409310.3481781004!2d-4.808858043552042!3d36.72887484648588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72eafb5b5f8391%3A0xb6cc29acdf549afa!2sCarpinter%C3%ADa%20Martos!5e0!3m2!1sen!2ses!4v1639047408630!5m2!1sen!2ses" id="mobile" class="responsive-iframe" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
                 
                 
-                <!--<hr>
+                <!--<hr>         DESCOMENTAR ESTA SECCIÓN PARA PONER LAS RRSS EN EL APARTADO DE SOCIAL, YO PREFERÍ PONERLAS EN EL FOOTER
                 <h6>Follow Us</h6>
                 <div id="social">
                 <a href="https://www.facebook.com/martoscarpinteria" target="_blank" class="fa fa-facebook"></a>
@@ -324,15 +325,15 @@
             
         </section>
 
-        <footer>
+        <footer> <!-- footer con créditos, copyright y redes sociales -->
             <p>&#169 2021 Carpintería Martos, S.C. All Rights Reserved.<br>Author: David Martos Ruiz</p>
             <hr>
             <h6>Follow Us</h6>
             <div id="social">
-            <a href="https://www.facebook.com/martoscarpinteria" target="_blank" class="fa fa-facebook"></a>
-            <a href="https://wa.me/34680180806" target="_blank" class="fa fa-whatsapp"></a>
+                <a href="https://www.facebook.com/martoscarpinteria" target="_blank" class="fa fa-facebook"></a>
+                <a href="https://wa.me/34680180806" target="_blank" class="fa fa-whatsapp"></a>
             </div>
-    </footer>
+        </footer>
     </div>
 </body>
 </html>
